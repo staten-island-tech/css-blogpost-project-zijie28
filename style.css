@@ -1,8 +1,14 @@
 body, * {
     font-size: 10px;
+    font-family: "Comic Neue";
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+.comic-neue-regular {
+  font-family: "Comic Neue", cursive;
+  font-weight: 400;
+  font-style: normal;
 }
 
 body {
@@ -17,6 +23,18 @@ h1 {
     
 }
 
+p {
+    font-size: large;
+    text-align: center;
+}
+
 .box-container {
-    border-radius: 200px;
+    display: grid;
+    grid-template-rows: 300px 300px 300px;
+    border-radius: 20px;
+    gap: 10px;
+}
+
+.blog-container {
+    border: 2px solid red
 }
